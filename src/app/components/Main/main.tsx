@@ -19,66 +19,307 @@ const Main = () => {
     getAllLitters();
   }, []);
   return (
-    <div className="container mx-auto grid lg:grid-cols-5 gap-4 md:grid-cols-3 sm:grid-cols-2 max-sm:grid-cols-1 p-5 ">
-      <div style={{ background: "#0079FF" }} className="h-80 rounded-md">
-        <div className="flex justify-center">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368234354_5744752915628308_3896885153856703055_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_3n6EYX5hEgAX9FUIiS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS3MP94w53JuA_yVg5yoi2Wa4xy6EDKS6UHJ_CngQxLLQ&oe=650A8B1B"
-            alt=""
-            width={165}
-          />
+    <div className="container mx-auto gap-2">
+      <div className="grid lg:grid-cols-5 md:grid-cols-2 sm:grid-cols-2 max-sm:grid-cols-2 gap-3 p-5">
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/5fec586e-04fd-4963-9a1e-2fd3b0c0edc9/346287131_974414310406241_6395030867765271130_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="text-center pt-3">
-          <h3 className="text-black">{litter.Title}</h3>
-          <h1 className="text-white font-bold text-2xl">19,900₮</h1>
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/3233bde3-0817-44e0-9ecd-85601ed4ef46/345928869_253581430667846_4844923425958495381_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div style={{ background: "#D71313" }} className="h-80 rounded-md">
-        <div className="flex justify-center">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368234354_5744752915628308_3896885153856703055_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_3n6EYX5hEgAX9FUIiS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS3MP94w53JuA_yVg5yoi2Wa4xy6EDKS6UHJ_CngQxLLQ&oe=650A8B1B"
-            alt=""
-            width={165}
-          />
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="text-center pt-3">
-          <h1 className="text-white font-bold text-2xl">19,900₮</h1>
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div style={{ background: "#FFD93D" }} className="h-80 rounded-md">
-        <div className="flex justify-center">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368234354_5744752915628308_3896885153856703055_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_3n6EYX5hEgAX9FUIiS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS3MP94w53JuA_yVg5yoi2Wa4xy6EDKS6UHJ_CngQxLLQ&oe=650A8B1B"
-            alt=""
-            width={165}
-          />
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="text-center pt-3">
-          <h1 className="text-white font-bold text-2xl">19,900₮</h1>
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div style={{ background: "#F94C10" }} className="h-80 rounded-md">
-        <div className="flex justify-center">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368234354_5744752915628308_3896885153856703055_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_3n6EYX5hEgAX9FUIiS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS3MP94w53JuA_yVg5yoi2Wa4xy6EDKS6UHJ_CngQxLLQ&oe=650A8B1B"
-            alt=""
-            width={165}
-          />
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/5fec586e-04fd-4963-9a1e-2fd3b0c0edc9/346287131_974414310406241_6395030867765271130_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="text-center pt-3">
-          <h1 className="text-white font-bold text-2xl">19,900₮</h1>
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/3233bde3-0817-44e0-9ecd-85601ed4ef46/345928869_253581430667846_4844923425958495381_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div style={{ background: "#00DFA2" }} className="h-80 rounded-md">
-        <div className="flex justify-center">
-          <img
-            src="https://scontent.xx.fbcdn.net/v/t1.15752-9/368234354_5744752915628308_3896885153856703055_n.png?_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_ohc=_3n6EYX5hEgAX9FUIiS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS3MP94w53JuA_yVg5yoi2Wa4xy6EDKS6UHJ_CngQxLLQ&oe=650A8B1B"
-            alt=""
-            width={165}
-          />
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="text-center pt-3">
-          <h1 className="text-white font-bold text-2xl">19,900₮</h1>
+        <div
+          style={{ border: "2px solid #337CCF" }}
+          className="rounded-xl p-3
+            drop-shadow-2xl"
+        >
+          <div className="grid justify-center">
+            <img
+              src="https://o.remove.bg/downloads/9aebbe43-3c93-413b-8c26-1fdf39e03999/346799004_280413957657057_3485533424076982701_n-removebg-preview.png"
+              alt=""
+              width={250}
+            />
+          </div>
+          <div>
+            <h1 className="text-black font-semibold text-md truncate">
+              Pelleted Paper Cat Litter
+            </h1>
+            <p className="text-xs opacity-50 tetxt-light">Муурны Элс</p>
+            <div className="flex gap-4">
+              <h4
+                style={{ color: "#2192FF" }}
+                className="font-semibold text-base"
+              >
+                19,900 ₮
+              </h4>
+              <p className="line-through font-light text-sm flex items-center opacity-50">
+                24,900₮
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

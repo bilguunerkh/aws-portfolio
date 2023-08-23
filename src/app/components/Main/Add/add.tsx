@@ -3,12 +3,15 @@ import React from "react";
 const Add = () => {
   return (
     <div style={{ background: "#3C79F5" }}>
-      <div className="container mx-auto flex flex justify-between p-5">
+      <div className="container mx-auto flex justify-between p-5">
         <div className="flex gap-2 items-center">
-          <h2 className="text-white font-bold text-4xl">
-            UNEGUI<span className="text-black">.MN</span>
+          <h2 className="text-white font-bold lg:text-4xl md  :text-2xl sm:text-base max-sm:tex-sm">
+            EKOCAT
+            <span className="text-black">
+              <span style={{ color: "#40F8FF" }}>.</span>MN
+            </span>
           </h2>
-          <p className="text-xs text-white">
+          <p className="text-xs text-white sm:flex max-sm:hidden md:flex">
             Монголын <br></br>амьтны хэрэгсэлын төв худалдаа
           </p>
         </div>
@@ -25,5 +28,4 @@ const Add = () => {
     </div>
   );
 };
-
 export default Add;

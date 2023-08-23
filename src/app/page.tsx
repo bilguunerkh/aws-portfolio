@@ -1,12 +1,15 @@
 import Main from "./components/Main/main";
-import Add from "./components/Main/Add/add";
+import NavLayout from "./Layouts/NavLayout";
 import Reklam from "./components/Main/Reklam/reklam";
+import Last from "./components/Main/lastSearching/last";
+import Category from "./components/Main/Category/category";
 export default function Home() {
   return (
-    <div className="mx-auto ">
-      <Add />
+    <NavLayout>
       <Reklam />
+      <Category />
+      <Last />
       <Main />
-    </div>
+    </NavLayout>
   );
 }
